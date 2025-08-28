@@ -89,7 +89,7 @@ function AppContent() {
             <a
               href="#"
               className="group flex items-center justify-center w-12 h-12 bg-gradient-to-br from-gray-800 to-gray-900 border border-gray-700 rounded-xl hover:border-yellow-400/50 transition-all duration-300 hover:scale-110"
-              target="_blank"
+              target="https://x.com/XBerryAO"
               rel="noopener noreferrer"
             >
               <Twitter className="w-5 h-5 text-gray-400 group-hover:text-yellow-400 transition-colors" />
