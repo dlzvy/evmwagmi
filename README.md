@@ -1,9 +1,9 @@
 # evmwagmi
 
 ```
-yarn
+vite
 ```
 
 ```
-yarn dev
+vite build
 ```
