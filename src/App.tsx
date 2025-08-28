@@ -14,6 +14,7 @@ import {
 } from '@rainbow-me/rainbowkit';
 import { BABTChecker } from './components/BABTChecker';
 import { useAccount } from 'wagmi';
+import { Github, Twitter } from 'lucide-react';
 
 const queryClient = new QueryClient();
 
@@ -81,6 +82,26 @@ function AppContent() {
                 </div>
               </div>
             </div>
+          </div>
+
+          {/* Social Links */}
+          <div className="flex justify-center items-center gap-6 mt-8">
+            <a
+              href="#"
+              className="group flex items-center justify-center w-12 h-12 bg-gradient-to-br from-gray-800 to-gray-900 border border-gray-700 rounded-xl hover:border-yellow-400/50 transition-all duration-300 hover:scale-110"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Twitter className="w-5 h-5 text-gray-400 group-hover:text-yellow-400 transition-colors" />
+            </a>
+            <a
+              href="#"
+              className="group flex items-center justify-center w-12 h-12 bg-gradient-to-br from-gray-800 to-gray-900 border border-gray-700 rounded-xl hover:border-yellow-400/50 transition-all duration-300 hover:scale-110"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Github className="w-5 h-5 text-gray-400 group-hover:text-yellow-400 transition-colors" />
+            </a>
           </div>
         </div>
       </div>
