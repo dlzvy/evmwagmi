@@ -1,3 +1,48 @@
+@import '@fontsource/inter/400.css';
+@import '@fontsource/inter/500.css';
+@import '@fontsource/inter/600.css';
+@import '@fontsource/inter/700.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-black text-white font-sans;
+    font-feature-settings: 'cv11', 'ss01';
+    font-variation-settings: 'opsz' 32;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .glow-text {
+    @apply bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent;
+    text-shadow: 0 0 30px rgba(250, 204, 21, 0.5);
+  }
+  
+  .card-glow {
+    box-shadow: 
+      0 0 0 1px rgba(255, 255, 255, 0.05),
+      0 2px 4px rgba(0, 0, 0, 0.1),
+      0 8px 16px rgba(0, 0, 0, 0.1),
+      0 0 40px rgba(250, 204, 21, 0.1);
+  }
+  
+  .button-glow {
+    @apply transition-all duration-300;
+    box-shadow: 0 0 20px rgba(250, 204, 21, 0.3);
+  }
+  
+  .button-glow:hover {
+    box-shadow: 0 0 30px rgba(250, 204, 21, 0.6);
+    transform: translateY(-2px);
+  }
+}
