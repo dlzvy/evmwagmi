@@ -31,12 +31,13 @@ function AppContent() {
         <div className="max-w-2xl w-full space-y-8">
           {/* Header */}
           <div className="text-center mb-12">
-            <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-2xl mb-6 shadow-2xl">
-              <span className="text-3xl font-bold text-black">B</span>
+            <div className="inline-flex items-center justify-center w-20 h-20 rounded-2xl mb-6 shadow-2xl overflow-hidden">
+              <img 
+                src="https://uffi44oww3irsoz3thkq5dbfc7qavooh4ri463es6pyfhfn2ghua.arweave.net/oUqOcda20Rk7O5nVDowlF-AKucfkUc9skvPwU5W6Meg" 
+                alt="Logo" 
+                className="w-full h-full object-cover"
+              />
             </div>
-            <h1 className="text-5xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent mb-4">
-              BABT Checker
-            </h1>
             <p className="text-xl text-gray-300 max-w-lg mx-auto leading-relaxed">
               Verify if your wallet holds a Binance Account Bound Token on BSC network
             </p>
