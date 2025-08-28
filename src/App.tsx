@@ -115,7 +115,7 @@ function AppContent() {
           {/* Credit */}
           <div className="text-center mt-8">
             <p className="text-gray-500 text-sm">
-              Built by <span className="text-yellow-400 font-semibold">XBerry</span>
+              Build by <span className="text-yellow-400 font-semibold">XBerry</span>
             </p>
           </div>
         </div>
