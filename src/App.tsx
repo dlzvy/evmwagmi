@@ -87,7 +87,7 @@ function AppContent() {
           {/* Social Links */}
           <div className="flex justify-center items-center gap-6 mt-8">
             <a
-              href="#"
+              href="https://x.com/XBerryAO"
               className="group flex items-center justify-center w-12 h-12 bg-gradient-to-br from-gray-800 to-gray-900 border border-gray-700 rounded-xl hover:border-yellow-400/50 transition-all duration-300 hover:scale-110"
               target="https://x.com/XBerryAO"
               rel="noopener noreferrer"
@@ -95,7 +95,7 @@ function AppContent() {
               <Twitter className="w-5 h-5 text-gray-400 group-hover:text-yellow-400 transition-colors" />
             </a>
             <a
-              href="#"
+              href="https://t.me/XBerryAO"
               className="group flex items-center justify-center w-12 h-12 bg-gradient-to-br from-gray-800 to-gray-900 border border-gray-700 rounded-xl hover:border-yellow-400/50 transition-all duration-300 hover:scale-110"
               target="_blank"
               rel="noopener noreferrer"
@@ -103,7 +103,7 @@ function AppContent() {
               <Send className="w-5 h-5 text-gray-400 group-hover:text-yellow-400 transition-colors" />
             </a>
             <a
-              href="#"
+              href="https://github.com/XBerryAO"
               className="group flex items-center justify-center w-12 h-12 bg-gradient-to-br from-gray-800 to-gray-900 border border-gray-700 rounded-xl hover:border-yellow-400/50 transition-all duration-300 hover:scale-110"
               target="_blank"
               rel="noopener noreferrer"
